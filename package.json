@@ -1,0 +1,19 @@
+{
+  "name": "nfacotial-incubator",
+  "version": "1.0.0",
+  "description": "Connect4: Nexus monorepo (web, server, ai, packages).",
+  "private": true,
+  "packageManager": "pnpm@11.4.0",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "turbo": "^2.9.14"
+  }
+}
